@@ -1,0 +1,99 @@
+html,
+body,
+section,
+div
+{
+  scroll-behavior: smooth;
+  font-family: "Josefin Sans", sans-serif;
+  color:white;
+}
+
+.page {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.particles-js {
+  background-color: #000000;
+  position: fixed;
+  left: 0;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
+
+/* :hover {
+  color: rgb(243, 40, 4);
+} */
+
+.iconBox {
+  justify-content: center;
+  margin: 10px;
+  padding: 5px;
+}
+
+.iconBox :hover {
+  color: #0275d8;
+  transition: color 300ms linear;
+}
+
+header {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 2px;
+  z-index: 99;
+  transition: background-color 0.5s ease-out;
+}
+
+header ul a {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: background-color 0.5s ease-out;
+  margin:1%
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #fff;
+}
+
+.home {
+  font-family: "Josefin Sans", sans-serif;
+  color: #fff;
+  padding: 0;
+  left: 0;
+  right: 0;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  text-align: center;
+  justify-content: center;
+}
+
+.home h1 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 60px;
+  text-shadow: 0 10px 10px #808080;
+}
+
+.home h3 {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px 20px;
+  margin: 10px 0 50px;
+  display: inline-block;
+  letter-spacing: 2;
+}
+
